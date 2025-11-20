@@ -24,10 +24,10 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8080",
+  "proxy": "http://algorithm-visualizer.org/",
   "license": "MIT",
   "engines": {
-    "node": ">=10.15.3"
+    "node": "14.x"
   },
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
