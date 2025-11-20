@@ -30,11 +30,10 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@fortawesome/fontawesome": "^1.1.8",
-    "@fortawesome/fontawesome-free-brands": "^5.0.13",
-    "@fortawesome/fontawesome-free-solid": "^5.0.13",
-    "@fortawesome/fontawesome-svg-core": "^1.2.19",
-    "@fortawesome/react-fontawesome": "0.1.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/fontawesome-free-solid": "^5.15.5",
+    "@fortawesome/fontawesome-free-brands": "^5.15.5",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "axios": "^1.6.0",
     "bluebird": "latest",
     "brace": "latest",
@@ -63,6 +62,12 @@
     "remove-markdown": "^0.3.0",
     "screenfull": "^4.2.0",
     "sprintf-js": "^1.1.2",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "path-browserify": "^1.0.2"
+  },
+  "overrides": {
+    "vfile": {
+      "path": "path-browserify"
+    }
   }
 }
